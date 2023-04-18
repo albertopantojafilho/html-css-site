@@ -1,0 +1,87 @@
+@font-face {
+font-family: 'android';
+src: url(fontes/idroid.otf), format(truetype);
+font-weight: normal;
+}
+
+body{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aquamarine;
+    margin: 0px;
+    padding: 0px;
+
+}
+main{
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+    margin: 0px 80px 0px 80px;
+    align-content: center;
+}
+
+header{
+    background-image: -moz-linear-gradient(to top, green, rgb(0, 255, 106));
+}
+nav{
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+nav > a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+}
+#cabe{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto;
+    text-align: center;
+    padding: 28px 0px 35px 0px;
+    color: white;
+}
+
+.cabe{
+    padding: 2px 0px 25px 0px;
+    text-align: center;
+    color: white;
+    margin: 5px;
+}
+#bibi{
+    color: rgb(0, 146, 51);
+    background-color: white;
+    font-family: 'android';
+    padding: 10px 0px 10px 10px;
+    margin: 0px;
+}
+h2{
+    font-family: 'android';
+    background-image: -moz-linear-gradient(to right, rgba(0, 128, 0, 0.565), rgba(255, 255, 255, 0));
+}
+aside{
+    background-color: aqua;
+}
+h3{
+    background-color: green;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+#sebulba{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+footer{
+    color: white;
+    background-color: rgb(0, 75, 11);
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
