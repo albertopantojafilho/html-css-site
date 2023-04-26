@@ -71,9 +71,10 @@ article p{
     padding-top: 10px;
     padding-bottom: 25px;
 }
-article p::after{
+.diferente::after{
     content: '\1F4CE';
 }
+
 article > ul{
     text-align: center;
     list-style-position: inside;
