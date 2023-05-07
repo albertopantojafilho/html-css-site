@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<!--
+    Get é limitado a 3000bytes então qualquer arquivo que você for upar você utiliza POST
+-->
+<body>
+    <h1>Exemplos de Formulários</h1>
+    <form action="cadastro.php" method="POST" autocomplete="on">
+    <p>
+        <label for="idcor">Cor: </label>
+        <input type="color" name="cor" id="idcor" value="#FFFFFF">
+    </p>
+    <p>
+        <label for="idnivel">Nível de Satisfação</label>
+        <input type="range" name="nivel" id="idnivel" min="1" max="5">
+    </p>
+    <fieldset>
+        <legend>Enviando Arquivos</legend>
+        <p>
+            <label for="idfoto">Foto do perfil</label>
+            <input type="file" name="foto" id="idfoto">
+        </p>
+    </fieldset>
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Resertar">
+    </p>
+    </form>
+</body>
+</html>

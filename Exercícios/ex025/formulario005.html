@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <!--
+        Type="radio" sempre colocar o mesmo name para escolher um só
+        Checked: para já marcar no html
+    -->
+    <h1>Mais formulários</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+            
+            <input type="radio" name="sexo" id="idsexom" value="Masculino">
+            <label for="idsexom">Masculino</label>
+            
+            <input type="radio" name="sexo" id="idsexof" value="Feminino" checked>
+            <label for="idsexof">Feminino</label>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            
+            <input type="checkbox" name="esfute" id="idfutebol"> 
+            <label for="idfutebol">Futebol</label> <br>         
+            
+            <input type="checkbox" name="efutsal" id="idfutsal"> 
+            <label for="idfutsal">Futsal</label> <br>
+            
+            <input type="checkbox" name="enatacao" id="idnatacao"> 
+            <label for="idnatacao">Natação</label> <br>
+            
+            <input type="checkbox" name="etenis" id="idtenis"> 
+            <label for="idtenis">Tênis</label> <br>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Resertar">
+        </p>
+    </form>
+</body>
+</html>
